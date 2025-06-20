@@ -29,3 +29,8 @@ console.log("Accessing an array using Loop:");
 for(let i=0;i<fruits.length;i++){
     console.log(fruits[i]);
 }
+console.log(fruits);
+
+let newArray = [...fruits,"A","B"];
+console.log(newArray);
+console.log(fruits);
